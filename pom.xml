@@ -11,7 +11,7 @@
     <groupId>com.gammacode</groupId>
     <artifactId>noteproject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>noteproject</name>
     <description>noteproject</description>
     <url/>
