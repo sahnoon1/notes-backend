@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Build the application
+RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Expose the default Spring Boot port
