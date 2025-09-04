@@ -82,7 +82,7 @@ public class NoteController {
         if (updatedNoteOpt.isPresent()) {
             Note updatedNote = updatedNoteOpt.get();
             String publicSlug = updatedNote.getPublicSlug() != null ? updatedNote.getPublicSlug() : "";
-            String shareUrl = (updatedNote.getIsPublic() && !publicSlug.isEmpty()) ? "https://notes-frontend-6joa.vercel.app/public/" + publicSlug : "";
+            String shareUrl = (updatedNote.getIsPublic() && !publicSlug.isEmpty()) ? "https://notes-frontend-coral.vercel.app/public/" + publicSlug : "";
             return ResponseEntity.ok(Map.of(
                 "publicSlug", publicSlug,
                 "shareUrl", shareUrl

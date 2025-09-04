@@ -13,7 +13,7 @@ public class SecurityConfig {
     @Bean
     public org.springframework.web.cors.CorsConfigurationSource corsConfigurationSource() {
         var config = new org.springframework.web.cors.CorsConfiguration();
-        config.setAllowedOrigins(java.util.List.of("https://notes-frontend-6joa.vercel.app")); // Set your frontend domain
+        config.setAllowedOrigins(java.util.List.of("https://notes-frontend-coral.vercel.app")); // Set your frontend domain
         config.setAllowedMethods(java.util.List.of("*")); // Allow all methods
         config.setAllowedHeaders(java.util.List.of("*")); // Allow all headers
         config.setAllowCredentials(true);
